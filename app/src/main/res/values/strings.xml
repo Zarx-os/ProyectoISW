@@ -2,4 +2,6 @@
     <string name="app_name">COUNT ON ME!</string>
     <string name="Palabra">Bienvenidos!</string>
     <string name="mensaje">Te guiamos</string>
+    <string name="send">Enviar</string>
+    <string name="Envia">Escribe tu mensaje...</string>
 </resources>

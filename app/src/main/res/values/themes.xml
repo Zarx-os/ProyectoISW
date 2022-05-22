@@ -2,11 +2,20 @@
     <!-- Base application theme. -->
     <style name="Theme.Proyecto" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryDark">@color/purple_700</item>
-        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorPrimary">@color/yellow_100</item>
+        <item name="colorPrimaryDark">@color/yellow_200</item>
+        <item name="colorAccent">@color/black</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.Proyecto.Button1" parent="Theme.AppCompat.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/yellow_100</item>
+        <item name="colorPrimaryDark">@color/yellow_200</item>
+        <item name="colorAccent">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@drawable/screen_splash</item>
     </style>
