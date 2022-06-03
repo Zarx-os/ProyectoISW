@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526613318449",
+    "project_id": "playercom-d856d",
+    "storage_bucket": "playercom-d856d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526613318449:android:6309fa066534eea6bdfe10",
+        "android_client_info": {
+          "package_name": "com.example.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526613318449-842or2c5172qcmi2e14ps0sver8u8r1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQkOjcwxe816a84cJ-oTkqsYTQ6dWGkMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526613318449-842or2c5172qcmi2e14ps0sver8u8r1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
