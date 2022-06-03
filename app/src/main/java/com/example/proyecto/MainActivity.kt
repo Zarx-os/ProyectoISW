@@ -66,8 +66,9 @@ class MainActivity : AppCompatActivity() {
 
         LButton3.setOnClickListener {
 
-
-            Toast.makeText(this,"Este boton aun no esta programado Juega",Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, GameActivity::class.java)
+            startActivity(intent)
+            //Toast.makeText(this,"Este boton aun no esta programado Juega",Toast.LENGTH_SHORT).show()
 
         }
 

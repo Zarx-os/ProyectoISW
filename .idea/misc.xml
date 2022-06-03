@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/background_rectangle.xml" value="0.215" />
         <entry key="app/src/main/res/drawable-v24/circle_drawable.xml" value="0.177" />
+        <entry key="app/src/main/res/drawable-v24/ic_2048.xml" value="0.215" />
         <entry key="app/src/main/res/drawable-v24/ic_image.xml" value="0.177" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1605" />
         <entry key="app/src/main/res/drawable/button_bg.xml" value="0.166" />
@@ -27,7 +29,10 @@
         <entry key="app/src/main/res/drawable/send_round_box.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_ayuda.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_chat_bot.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_color_picker.xml" value="0.17692307692307693" />
+        <entry key="app/src/main/res/layout/activity_game.xml" value="0.17692307692307693" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main_menu.xml" value="0.4200217627856366" />
         <entry key="app/src/main/res/layout/activity_music_p.xml" value="0.17692307692307693" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.25" />
