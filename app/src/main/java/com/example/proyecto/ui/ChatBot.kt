@@ -4,7 +4,6 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.Settings
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import android.widget.Button
@@ -33,7 +32,7 @@ class ChatBot : AppCompatActivity() {
         recyclerView()
         clickEvents()
             val random=(0..3).random()
-        customMessage("El dia de hoy estas hablando con ${bolList[random]}, en que puedo ayudarte?")
+        customMessage("El dia de hoy estas hablando con ${bolList[random]} ¿en qué puedo ayudarte?")
 
     }
     private fun clickEvents(){

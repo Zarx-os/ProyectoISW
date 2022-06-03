@@ -9,14 +9,14 @@
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="180dp"
         android:background="@drawable/image1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    
+
     <ImageView
-        android:id="@+id/imgPhoto"
+        android:id="@+id/imgBuho"
         android:layout_width="71dp"
         android:layout_height="71dp"
         android:layout_marginStart="16dp"
@@ -26,6 +26,23 @@
         android:src="@drawable/bird2"
         />
 
+    <TextView
+        android:id="@+id/txtBuho"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/receive_round_box"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imgBuho"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -33,19 +50,19 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="130dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/layout_bg"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/layout_menu_bg"
         android:gravity="center"
         android:orientation="vertical"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:paddingBottom="20dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgPhoto">
+        app:layout_constraintTop_toBottomOf="@+id/imgBuho">
 
 
         <LinearLayout
@@ -55,12 +72,12 @@
             android:gravity="center">
 
             <LinearLayout
-                android:id="@+id/LButtton1"
+                android:id="@+id/LButton1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/layout_bg_button"
-                android:backgroundTint="@color/yellow_200"
+                android:background="@drawable/layout_bg"
+                android:backgroundTint="@color/yellow_100"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:paddingTop="10dp"
@@ -82,7 +99,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/LButtton2"
+                android:id="@+id/LButton2"
                 android:layout_width="0dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
@@ -90,21 +107,21 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/layout_bg_button"
-                android:backgroundTint="@color/blue_pastel"
+                android:background="@drawable/layout_bg"
+                android:backgroundTint="@color/yellow_100"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="90dp"
                     android:layout_marginBottom="8dp"
-                    android:src="@drawable/vela" />
+                    android:src="@drawable/vela2" />
 
                 <TextView
                     android:id="@+id/txtMenu2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Relajate"
+                    android:text="Perfil"
                     android:textColor="#172646"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -117,13 +134,14 @@
             android:gravity="center">
 
             <LinearLayout
+                android:id="@+id/LButton3"
                 android:layout_width="0dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/layout_bg_button"
-                android:backgroundTint="@android:color/darker_gray"
+                android:background="@drawable/layout_bg"
+                android:backgroundTint="@color/yellow_200"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -137,12 +155,13 @@
                     android:id="@+id/txtMenu3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Control"
+                    android:text="Juega"
                     android:textColor="#172646"
                     android:textSize="16dp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/LButton4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -150,8 +169,8 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/layout_bg_button"
-                android:backgroundTint="@android:color/holo_orange_dark"
+                android:background="@drawable/layout_bg"
+                android:backgroundTint="@color/yellow_200"
                 android:orientation="vertical">
 
                 <ImageView
@@ -164,7 +183,7 @@
                     android:id="@+id/txtMenu4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Vuela"
+                    android:text="Ayuda"
                     android:textColor="#172646"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -177,32 +196,34 @@
             android:gravity="center">
 
             <LinearLayout
+                android:id="@+id/LButton5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:background="@drawable/layout_bg_button"
-                android:backgroundTint="@color/teal_200"
+                android:background="@drawable/layout_bg"
+                android:backgroundTint="@color/yellow_200"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="90dp"
                     android:layout_marginBottom="8dp"
-                    android:src="@drawable/piedras" />
+                    android:src="@drawable/bird1" />
 
                 <TextView
                     android:id="@+id/txtMenu5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Control"
+                    android:text="Test"
                     android:textColor="#172646"
                     android:textSize="16dp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/LButton6"
                 android:layout_width="0dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
@@ -210,21 +231,21 @@
                 android:layout_weight="1"
                 android:layout_marginLeft="20dp"
                 android:gravity="center"
-                android:background="@drawable/layout_bg_button"
-                android:backgroundTint="@color/pink_50"
+                android:background="@drawable/layout_bg"
+                android:backgroundTint="@color/yellow_200"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="90dp"
                     android:layout_marginBottom="8dp"
-                    android:src="@drawable/bird3" />
+                    android:src="@drawable/mariposa" />
 
                 <TextView
                     android:id="@+id/txtMenu6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Vuela"
+                    android:text="Entretenimiento"
                     android:textColor="#172646"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -235,11 +256,11 @@
             android:layout_height="wrap_content">
 
             <Button
-                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/LButton7"
                 android:layout_width="320dp"
                 android:layout_height="80dp"
                 android:background="@drawable/layout_bg_button"
-                android:backgroundTint="@color/pink_300"
+                android:backgroundTint="@color/pink_50"
                 android:text="Modulo de ayuda"
                 android:textSize="25dp"
                 android:textColor="@color/black"></Button>

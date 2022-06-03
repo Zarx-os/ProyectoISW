@@ -3,18 +3,47 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/circle_drawable.xml" value="0.177" />
+        <entry key="app/src/main/res/drawable-v24/ic_image.xml" value="0.177" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1605" />
         <entry key="app/src/main/res/drawable/button_bg.xml" value="0.166" />
-        <entry key="app/src/main/res/drawable/layout_bg.xml" value="0.143" />
+        <entry key="app/src/main/res/drawable/buttonstyle.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/gradientbg.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/ic_ayuda.xml" value="0.215" />
+        <entry key="app/src/main/res/drawable/ic_emoji.xml" value="0.215" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_logotipo.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_round_accessibility_24.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/layout_bg.xml" value="0.21" />
+        <entry key="app/src/main/res/drawable/layout_bg_bar.xml" value="0.1755" />
         <entry key="app/src/main/res/drawable/layout_bg_button.xml" value="0.2225" />
         <entry key="app/src/main/res/drawable/layout_bg_button2.xml" value="0.2225" />
+        <entry key="app/src/main/res/drawable/layout_menu_bg.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/photocircle.xml" value="0.1605" />
         <entry key="app/src/main/res/drawable/receive_round_box.xml" value="0.2" />
         <entry key="app/src/main/res/drawable/screen.xml" value="0.218" />
         <entry key="app/src/main/res/drawable/screen_splash.xml" value="0.218" />
         <entry key="app/src/main/res/drawable/send_round_box.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_ayuda.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_chat_bot.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_music_p.xml" value="0.17692307692307693" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_user.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_usuario.xml" value="0.17692307692307693" />
+        <entry key="app/src/main/res/layout/fragment_ansiedad.xml" value="0.2825938566552901" />
+        <entry key="app/src/main/res/layout/fragment_estres.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.17692307692307693" />
+        <entry key="app/src/main/res/layout/fragment_inicio.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_song.xml" value="0.17692307692307693" />
+        <entry key="app/src/main/res/layout/fragment_usuario.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.17692307692307693" />
         <entry key="app/src/main/res/layout/message_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/swipe_item.xml" value="0.17692307692307693" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1005" />
       </map>
     </option>
   </component>

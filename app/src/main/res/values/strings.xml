@@ -4,4 +4,81 @@
     <string name="mensaje">Te guiamos</string>
     <string name="send">Enviar</string>
     <string name="Envia">Escribe tu mensaje...</string>
+    <string name="TestInicio">Con base a este test se diagnosticara y te ayudaremos</string>
+    <string name="TestInicio1">300 millones</string>
+    <string name="TestInicio2">de personas en el mundo viven con problemas psicologicos</string>
+    <string name="TestInicio3">Selecciona tus respuestas de forma sincera</string>
+    <string name="notification_channel_name">Music Channel</string>
+    <string name="notification_channel_description">Shows the currently playing music</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ansiedad">
+        En el cuestionario hay una lista de sintomas comunes de la ansiedad.
+        Lea cada uno de los items atentamente, e indique cuanto le ha afectado en la
+        ultima semana incluyendo hoy:
+    </string>
+
+    <string name="depresion">
+        En el cuestionario hay una lista de sintomas comunes de la depresion.
+        Lea cada uno de los items atentamente, e indique cuanto le ha afectado en la
+        ultima semana incluyendo hoy:
+    </string>
+
+    <string name="nunca">0 Nunca</string>
+    <string name="aveces">1 A veces</string>
+    <string name="muchas">2 Muchas veces</string>
+    <string name="siempre">3 Siempre</string>
+    <string name="pregunta1">Me acepto como persona</string>
+    <string name="pregunta2">Tengo confianza en mi mismo</string>
+    <string name="pregunta3">Se afirmarme</string>
+    <string name="pregunta4">La mayoria de personas me quiere</string>
+    <string name="pregunta5">Me expreso facilmente en grupo</string>
+    <string name="pregunta6">Merezco ser feliz</string>
+    <string name="pregunta7">Creo que mi opinion es tan importante como la de las demas</string>
+    <string name="pregunta8">"Es humano cometer un error"¿Te dices esta cuando te equivocas?</string>
+    <string name="pregunta9">¿Te es facil escuchar una critica justificada que te hagan?</string>
+    <string name="pregunta10">¿Eres capa de decirle a otro adulto que no aceptas su comportamiento?</string>
+    <string name="pregunta11">Cuando una relacion se hace insoportable,¿Eres capa de dejarla?</string>
+    <string name="pregunta12">¿Tienes capacidad de decir "no" cuando es necesario?</string>
+
+
+    <string name="Dnunca">0 Nunca</string>
+    <string name="Daveces">1 Varios dias</string>
+    <string name="Dmuchas">2 Mas de la mitad de los dias</string>
+    <string name="Dsiempre">3 Casi todos los dias</string>
+    <string name="Dpregunta1">Poco interes o agrado al hacer las cosas</string>
+    <string name="Dpregunta2">Se ha sentido triste,deprimido o desesperado</string>
+    <string name="Dpregunta3">Ha tenido problemas para dormir, mantenerse despierto o duerme demasiado</string>
+    <string name="Dpregunta4">Se siente cansado o con poca energia</string>
+    <string name="Dpregunta5">Tiene poco o excesivo apetito</string>
+    <string name="Dpregunta6">Se ha sentido al consigo mismo, ha sentido que usted es un fracaso o ha sentido que se ha
+    fallado a si mismo o a su familia</string>
+    <string name="Dpregunta7">Ha tenido problemas para concentrarse en actividades como leer o periodico o ver televesion</string>
+    <string name="Dpregunta8">Se mueve o habla tan despacio que otras personas pueden darse cuenta. Esta tan inquieto
+        o intranquilo que da vueltas de un lugar a otro mas que de costumbre</string>
+    <string name="Dpregunta9">Ha pensado que estaria mejor muerto o ha deseado hacerse daño de alguna forma</string>
+    <string name="Dpregunta10">¿Eres capa de decirle a otro adulto que no aceptas su comportamiento?</string>
+    <string name="Dpregunta11">Cuando una relacion se hace insoportable,¿Eres capa de dejarla?</string>
+    <string name="Dpregunta12">¿Tienes capacidad de decir "no" cuando es necesario?</string>
+
+
+
+    <string name="Ayuda">Si necesitas hablar con alguien, presiona con toda confianza el boton  y se te contactara con un
+    alguien de apoyo</string>
+
+    <string-array name="sexo_list">
+        <item>Seleccionar...</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>No Binario</item>
+        <item>Fluido</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="contactos_list">
+        <item>Dr. Elizabeth Torres</item>
+        <item>Dr. Alejandro Mondragon</item>
+        <item>Dr. Marco Perez</item>
+        <item>Dr. Daniel Ruiz</item>
+    </string-array>
 </resources>

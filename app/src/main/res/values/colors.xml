@@ -16,4 +16,10 @@
     <color name="yellow_100">#eef6b0</color>
     <color name="yellow_200">#f5fac1</color>
 
+    <color name="colorPrimary">#08FF04</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#08FF04</color>
+    <color name="mediumDarkBackground">#303030</color>
+    <color name="darkBackground">#202020</color>
+    <color name="lightBackground">#404040</color>
 </resources>
