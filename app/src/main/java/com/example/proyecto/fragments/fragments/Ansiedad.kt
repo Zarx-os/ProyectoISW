@@ -127,12 +127,10 @@ class Ansiedad : Fragment() {
     }
 
     fun getVal(number: Editable): Boolean {
-        if (Integer.parseInt(number.toString()) < 4 && Integer.parseInt(number.toString()) >= 0)
-            return true
-        else return false
+        return Integer.parseInt(number.toString()) < 4 && Integer.parseInt(number.toString()) >= 0
     }
 
-    fun getSum1(): Int {
+    fun getRes(): Int {
         return sum
     }
 

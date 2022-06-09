@@ -85,15 +85,13 @@ class MainActivity : AppCompatActivity() {
 
         LButton6.setOnClickListener {
 
-            Toast.makeText(this,"Este boton aun no esta programado Entretenimiento",Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, Entretenimiento::class.java))
         }
 
         LButton7.setOnClickListener {
-            Toast.makeText(this,"Este boton aun no esta programado MODULO",Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, Modulos::class.java))
         }
-        }
-
-
+    }
 
 
 }

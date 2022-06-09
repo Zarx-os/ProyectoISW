@@ -62,7 +62,6 @@
     <string name="Dpregunta12">¿Tienes capacidad de decir "no" cuando es necesario?</string>
 
 
-
     <string name="Ayuda">Si necesitas hablar con alguien, presiona con toda confianza el boton  y se te contactara con un
     alguien de apoyo</string>
 
@@ -83,11 +82,7 @@
     </string-array>
 
 
-
-
-
-
-    <string name="header">2048</string>
+    <string name="header">ESCOM</string>
     <string name="high_score">MAX</string>
     <string name="score">PUNTAJE</string>
     <string name="you_win">Tu ganaste!</string>
@@ -115,9 +110,9 @@
     <string name="dont_delete_tiles">No</string>
 
     <!-- Deleting Selection -->
-    <string name="action_deleting_selection">Deleting Selection</string>
+    <string name="action_deleting_selection">Eliminando Seleccion</string>
     <string name="title_deleting_selection">Select your required tile</string>
-    <string name="message_unable_deleting_selection">no more chance for this set!</string>
+    <string name="message_unable_deleting_selection">No mas cambios implementados</string>
     <string name="message_inactivated_game_and_deleting_selection_is_available">Press \"Undo\", then do this action again!</string>
     <string name="title_remain_deleting_selections_amount">Remaining selections: </string>
     <string name="question_deleting_selections">Are you sure?</string>

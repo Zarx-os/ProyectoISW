@@ -49,10 +49,33 @@
         tools:itemCount="20"
         tools:listitem="@layout/message_item" />
 
-    <View
+    <LinearLayout
         android:id="@+id/dark_divider"
         android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:background="#42A5F5" />
+        android:layout_height="60dp"
+        android:background="#42A5F5"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_maki"
+            app:civ_border_width="2dp"
+            app:civ_circle_background_color="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/ubuntu"
+            android:paddingLeft="8dp"
+            android:paddingTop="17dp"
+            android:text="MAKI"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </RelativeLayout>

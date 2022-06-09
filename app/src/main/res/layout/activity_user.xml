@@ -19,8 +19,11 @@
         android:background="@drawable/layout_menu_bg">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="420dp"
-            android:src="@drawable/ic_person" />
+            android:layout_height="400dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+           />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -80,6 +83,8 @@
                 android:id="@+id/btnUsuario"
                 android:layout_marginTop="40dp"
                 android:text="Ingresar"
+                android:background="@drawable/background_rectangle"
+                android:backgroundTint="@color/placeholder_bg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />
